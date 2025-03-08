@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A48F331D2D7BEE4500A260B6 /* CreateTransactionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F331C2D7BEE4500A260B6 /* CreateTransactionPage.swift */; };
+		A48F331F2D7BF23100A260B6 /* PreviewUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F331E2D7BF23100A260B6 /* PreviewUsers.swift */; };
+		A48F33212D7BF2DE00A260B6 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F33202D7BF2DE00A260B6 /* UsersModel.swift */; };
+		A48F33232D7BF71D00A260B6 /* cardUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48F33222D7BF71D00A260B6 /* cardUserView.swift */; };
 		A4A0F7472D762DD00027878B /* QuickWashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A0F7462D762DD00027878B /* QuickWashApp.swift */; };
 		A4A0F7492D762DD00027878B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A0F7482D762DD00027878B /* ContentView.swift */; };
 		A4A0F74B2D762DD20027878B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A0F74A2D762DD20027878B /* Assets.xcassets */; };
 		A4A0F74E2D762DD20027878B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4A0F74D2D762DD20027878B /* Preview Assets.xcassets */; };
 		A4A0F7562D7649C50027878B /* HeaderHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A0F7552D7649C50027878B /* HeaderHome.swift */; };
 		A4A0F7582D764A350027878B /* PreviewDailyTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A0F7572D764A350027878B /* PreviewDailyTransactions.swift */; };
-		A4A0F75C2D764AEE0027878B /* DailyTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A0F75B2D764AEE0027878B /* DailyTransactions.swift */; };
+		A4A0F75C2D764AEE0027878B /* DailyTransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A0F75B2D764AEE0027878B /* DailyTransactionModel.swift */; };
 		A4A0F75E2D764DD30027878B /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A0F75D2D764DD30027878B /* TransactionsView.swift */; };
 		A4A3E7422D79B53A00D76FC1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A3E7412D79B53A00D76FC1 /* Extensions.swift */; };
+		A4F844682D7A1BA500466515 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F844672D7A1BA500466515 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A48F331C2D7BEE4500A260B6 /* CreateTransactionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTransactionPage.swift; sourceTree = "<group>"; };
+		A48F331E2D7BF23100A260B6 /* PreviewUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewUsers.swift; sourceTree = "<group>"; };
+		A48F33202D7BF2DE00A260B6 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		A48F33222D7BF71D00A260B6 /* cardUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardUserView.swift; sourceTree = "<group>"; };
 		A4A0F7432D762DD00027878B /* QuickWash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickWash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A0F7462D762DD00027878B /* QuickWashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickWashApp.swift; sourceTree = "<group>"; };
 		A4A0F7482D762DD00027878B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,9 +35,10 @@
 		A4A0F74D2D762DD20027878B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4A0F7552D7649C50027878B /* HeaderHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHome.swift; sourceTree = "<group>"; };
 		A4A0F7572D764A350027878B /* PreviewDailyTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDailyTransactions.swift; sourceTree = "<group>"; };
-		A4A0F75B2D764AEE0027878B /* DailyTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTransactions.swift; sourceTree = "<group>"; };
+		A4A0F75B2D764AEE0027878B /* DailyTransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTransactionModel.swift; sourceTree = "<group>"; };
 		A4A0F75D2D764DD30027878B /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
 		A4A3E7412D79B53A00D76FC1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A4F844672D7A1BA500466515 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +71,10 @@
 		A4A0F7452D762DD00027878B /* QuickWash */ = {
 			isa = PBXGroup;
 			children = (
+				A4F844662D7A1B7D00466515 /* Pages */,
 				A4A3E7402D79B52400D76FC1 /* Extensions */,
 				A4A0F7592D764AC40027878B /* Models */,
-				A4A0F7542D7645FF0027878B /* components */,
+				A4A0F7542D7645FF0027878B /* Components */,
 				A4A0F7462D762DD00027878B /* QuickWashApp.swift */,
 				A4A0F7482D762DD00027878B /* ContentView.swift */,
 				A4A0F74A2D762DD20027878B /* Assets.xcassets */,
@@ -77,23 +88,26 @@
 			children = (
 				A4A0F74D2D762DD20027878B /* Preview Assets.xcassets */,
 				A4A0F7572D764A350027878B /* PreviewDailyTransactions.swift */,
+				A48F331E2D7BF23100A260B6 /* PreviewUsers.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A4A0F7542D7645FF0027878B /* components */ = {
+		A4A0F7542D7645FF0027878B /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				A4A0F7552D7649C50027878B /* HeaderHome.swift */,
 				A4A0F75D2D764DD30027878B /* TransactionsView.swift */,
+				A48F33222D7BF71D00A260B6 /* cardUserView.swift */,
 			);
-			path = components;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		A4A0F7592D764AC40027878B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A4A0F75B2D764AEE0027878B /* DailyTransactions.swift */,
+				A4A0F75B2D764AEE0027878B /* DailyTransactionModel.swift */,
+				A48F33202D7BF2DE00A260B6 /* UsersModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,6 +118,15 @@
 				A4A3E7412D79B53A00D76FC1 /* Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A4F844662D7A1B7D00466515 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				A4F844672D7A1BA500466515 /* HomePage.swift */,
+				A48F331C2D7BEE4500A260B6 /* CreateTransactionPage.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,12 +200,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4A0F75E2D764DD30027878B /* TransactionsView.swift in Sources */,
+				A48F331F2D7BF23100A260B6 /* PreviewUsers.swift in Sources */,
 				A4A0F7562D7649C50027878B /* HeaderHome.swift in Sources */,
 				A4A0F7492D762DD00027878B /* ContentView.swift in Sources */,
+				A48F33212D7BF2DE00A260B6 /* UsersModel.swift in Sources */,
 				A4A0F7472D762DD00027878B /* QuickWashApp.swift in Sources */,
 				A4A0F7582D764A350027878B /* PreviewDailyTransactions.swift in Sources */,
-				A4A0F75C2D764AEE0027878B /* DailyTransactions.swift in Sources */,
+				A4A0F75C2D764AEE0027878B /* DailyTransactionModel.swift in Sources */,
+				A48F331D2D7BEE4500A260B6 /* CreateTransactionPage.swift in Sources */,
+				A48F33232D7BF71D00A260B6 /* cardUserView.swift in Sources */,
 				A4A3E7422D79B53A00D76FC1 /* Extensions.swift in Sources */,
+				A4F844682D7A1BA500466515 /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,9 +344,11 @@
 				DEVELOPMENT_TEAM = H49XUM38ZY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickWash/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +360,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -345,9 +375,11 @@
 				DEVELOPMENT_TEAM = H49XUM38ZY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickWash/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -359,7 +391,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
